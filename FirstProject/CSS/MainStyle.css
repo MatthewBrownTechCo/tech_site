@@ -1,0 +1,45 @@
+.mainStyle {
+  background-color: black;
+  color: white;
+  background-image: url(https://i.gifer.com/J4o.gif);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+
+.mainHeader {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  font-size: 100px;
+  text-shadow: 3px 3px rgb(78, 189, 248);
+}
+
+/* .mainHeader:hover {
+  color: blue;
+  text-shadow: 4px 4px white;
+} */
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.navButton {
+  padding: 1px 6px;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+.navButton:hover {
+  background-color: rgb(78, 189, 248);
+  color: white;
+  transition: 0.4s;
+}
