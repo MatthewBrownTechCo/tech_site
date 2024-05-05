@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matthew Brown Tech Co</title>
+    <link rel="stylesheet" href="/FirstProject/CSS/MainStyle.css" />
+    <link rel="stylesheet" href="/FirstProject/CSS/ContactStyle.css" />
+  </head>
+  <body class="mainStyle">
+    <script src="/FirstProject/JavaScript/functions.js"></script>
+    <script src="/FirstProject/JavaScript/contact.js"></script>
+    <header>
+      <h1 class="mainHeader">
+        <strong><em>Matthew Brown Tech Co</em></strong>
+      </h1>
+    </header>
+    <nav class="navigator">
+      <h2><a class="navButton" href="home.html">Home</a></h2>
+      <h2><a class="navButton" href="portfolio.html">Portfolio</a></h2>
+      <h2><a class="navButton" href="contact.html">Contact</a></h2>
+      <h2><a class="navButton" href="faq.html">FAQ</a></h2>
+      <h2><a class="navButton" href="support.html">Support</a></h2>
+    </nav>
+    <section class="contactSection">
+      <header class="contactHeader">
+        <h3>Contact Matthew Brown Tech Co</h3>
+      </header>
+      <form class="contactForm">
+        <label><b>Name (First & Last)</b></label>
+        <input type="text" class="nameInput" />
+        <br />
+        <label><b>Company (if applicable)</b></label>
+        <input type="text" class="companyInput" />
+        <br />
+        <label><b>Email</b></label>
+        <input type="text" class="emailInput" />
+        <br />
+        <label><b>Phone</b></label>
+        <input type="text" class="phoneInput" />
+        <br />
+        <label><b>Message</b></label>
+        <textarea type="text" class="messageInput"></textarea>
+        <br />
+        <input type="submit" class="submitBtn" onclick="contactSub()" />
+      </form>
+    </section>
+  </body>
+</html>

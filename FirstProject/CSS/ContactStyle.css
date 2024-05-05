@@ -1,0 +1,64 @@
+.contactHeader {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.nameInput {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 20px;
+}
+
+.companyInput {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 20px;
+}
+
+.emailInput {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 20px;
+}
+
+.phoneInput {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 20px;
+}
+
+.messageInput {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 100px;
+}
+
+.submitBtn {
+  padding: 1px 6px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 2px solid white;
+  height: 30px;
+  margin-right: 700px;
+  font-weight: bold;
+}
+
+.submitBtn:hover {
+  background-color: rgba(255, 255, 255, 0.74);
+  cursor: pointer;
+}
