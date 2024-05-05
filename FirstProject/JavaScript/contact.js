@@ -1,3 +1,3 @@
 function contactSub() {
-  document.getElementsByClassName("contactForm").innerHTML = "";
+  alert("Your form has been submitted!  ");
 }
