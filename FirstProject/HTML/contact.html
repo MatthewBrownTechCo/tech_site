@@ -24,23 +24,41 @@
       <header class="contactHeader">
         <h3>Contact Matthew Brown Tech Co</h3>
       </header>
-      <form class="contactForm">
-        <label class="nameLabel"><b>Name (First & Last)</b></label>
-        <input type="text" class="nameInput" name="nameInput" />
+      <form class="contactForm" onsubmit="contactSub()">
+        <label class="nameLabel"><b>Name (First & Last) *</b></label>
+        <input
+          type="text"
+          class="nameInput"
+          name="nameInput"
+          oninvalid="missingName()"
+          required
+        />
         <br />
         <label><b>Company (if applicable)</b></label>
         <input type="text" class="companyInput" name="companyInput" />
         <br />
-        <label><b>Email</b></label>
-        <input type="text" class="emailInput" name="emailInput" />
+        <label><b>Email *</b></label>
+        <input
+          type="text"
+          class="emailInput"
+          name="emailInput"
+          oninvalid="missingEmail()"
+          required
+        />
         <br />
         <label><b>Phone</b></label>
         <input type="text" class="phoneInput" name="phoneInput" />
         <br />
-        <label><b>Message</b></label>
-        <textarea type="text" class="messageInput" name="msgInput"></textarea>
+        <label><b>Message *</b></label>
+        <textarea
+          type="text"
+          class="messageInput"
+          name="msgInput"
+          oninvalid="missingMsg()"
+          required
+        ></textarea>
         <br />
-        <input type="submit" class="submitBtn" onclick="contactSub()" />
+        <input type="submit" class="submitBtn" />
       </form>
     </section>
   </body>
