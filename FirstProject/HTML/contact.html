@@ -24,13 +24,16 @@
       <header class="contactHeader">
         <h3>Contact Matthew Brown Tech Co</h3>
       </header>
-      <form class="contactForm" onsubmit="contactSub()">
+      <form
+        class="contactForm"
+        onsubmit="alert('Your form has been submitted!')"
+      >
         <label class="nameLabel"><b>Name (First & Last) *</b></label>
         <input
           type="text"
           class="nameInput"
-          name="nameInput"
-          oninvalid="missingName()"
+          name="naInput"
+          oninvalid="alert('Please enter your name!')"
           required
         />
         <br />
@@ -41,8 +44,8 @@
         <input
           type="text"
           class="emailInput"
-          name="emailInput"
-          oninvalid="missingEmail()"
+          name="emInput"
+          oninvalid="alert('Please enter your email!')"
           required
         />
         <br />
@@ -54,7 +57,7 @@
           type="text"
           class="messageInput"
           name="msgInput"
-          oninvalid="missingMsg()"
+          oninvalid="alert('Please enter a message!')"
           required
         ></textarea>
         <br />
