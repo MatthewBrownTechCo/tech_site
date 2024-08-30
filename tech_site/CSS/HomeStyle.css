@@ -5,9 +5,8 @@
 }
 
 .section {
-  display: flex;
-  padding-left: 100px;
-  padding-right: 100px;
+  background-color: black;
+  padding: 50px;
 }
 
 .aboutSectionWhole {
@@ -25,20 +24,6 @@
   justify-content: center;
   font-size: 35px;
 }
-
-/* .article1 {
-    border: 3px solid black;
-    margin-right: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
-
-/* .article2 {
-    border: 3px solid black;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
 
 .artHeader {
   display: flex;

@@ -1,12 +1,12 @@
 .mainStyle {
-  background-color: black;
-  color: white;
-  background-image: url(https://i.gifer.com/J4o.gif);
+  background-color: white;
+  color: black;
   background-repeat: repeat-y;
   background-size: contain;
   background-position: center;
-  height: 100vh;
-  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
   font-family: serif;
 }
 
@@ -18,11 +18,6 @@
   text-shadow: 3px 3px rgb(78, 189, 248);
 }
 
-/* .mainHeader:hover {
-  color: blue;
-  text-shadow: 4px 4px white;
-} */
-
 .navigator {
   display: flex;
   flex-direction: row;
@@ -32,14 +27,41 @@
 
 .navButton {
   padding: 1px 20px;
-  color: white;
+  color: black;
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 .navButton:hover {
   background-color: rgb(78, 189, 248);
-  color: white;
+  color: black;
   transition: 0.4s;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: center;
+}
+
+.social-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-link {
+  width: 50px;
+  height: 50px;
+}
+
+.li-link {
+  width: 50px;
+  height: 48px;
+  margin-top: 1px;
+}
+
+.insta-link {
+  width: 55px;
+  height: 53px;
+  margin-top: -1px;
 }
