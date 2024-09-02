@@ -1,9 +1,18 @@
 .testSection {
+  background-color: black;
   color: white;
+  padding-bottom: 30px;
 }
 
 .testHeader {
   display: flex;
   justify-content: center;
   font-size: 40px;
+}
+
+.test-body {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0;
 }
