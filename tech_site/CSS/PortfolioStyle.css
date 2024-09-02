@@ -10,20 +10,31 @@
   font-size: 40px;
 }
 
-.numGuessGame {
+.portfolio-r1 {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  padding-bottom: 50px;
+}
+
+.portfolio-r2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.link-btn {
   font-size: 20px;
   color: white;
   background-color: transparent;
   text-decoration: none;
   border: 2px solid white;
-  margin-left: 575px;
-  margin-right: 575px;
   padding: 10px;
+  margin-inline: 12px;
 }
 
-.numGuessGame:hover {
+.link-btn:hover {
   background-color: rgb(78, 189, 248);
   color: white;
   transition: 0.4s;
